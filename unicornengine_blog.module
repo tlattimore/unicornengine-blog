@@ -1,0 +1,7 @@
+<?php
+/**
+ * @file
+ * Code for the UnicornEngine Blog feature.
+ */
+
+include_once 'unicornengine_blog.features.inc';
