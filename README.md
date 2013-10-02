@@ -1,5 +1,5 @@
 # UnicornEngine Blog
-### Feature's to demo configuration managment at a [CharDUG meetup](http://www.meetup.com/charDUG/events/138153952/). 
+#### Feature to demo configuration managment at a [CharDUG meetup](http://www.meetup.com/charDUG/events/138153952/). 
 
 
 Modules dependencies:
