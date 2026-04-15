@@ -1,0 +1,17 @@
+# Upsun configuration, generated using AI at: 2026-04-15T15:45:40.317Z
+# AI can make mistakes. Please modify this file to suit your needs.
+applications:
+  unicornengine-blog:
+    type: php:8.5
+    build:
+      flavor: none
+    hooks:
+      build: |
+        set -ex
+        composer install --no-dev --no-interaction --no-progress
+    web:
+      locations:
+        /:
+          root: ''
+          passthru: /index.php
+    relationships: {}
